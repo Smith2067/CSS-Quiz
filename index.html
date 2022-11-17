@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSS Transform Quiz</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+
+<div id="start">
+<h1>CSS Transform Quiz</h1>
+<button id="startbutton" onclick="startup()">Start!</button>
+</div>
+
+<div id="hold">
+    <h1 id="words">What Changes the text color?</h1>
+    <div id="ansy">
+        <button id="ans1" onclick="ans1()">color:</button>
+        <button id="ans2" onclick="ans2()">text-color:</button>
+        <button id="help" onclick="help()">Answer Help</button>
+        <button id="ans3" onclick="ans3()">Background-color:</button>
+        <button id="ans4" onclick="ans4()">Text-Color:</button>
+    </div>
+    <button id="next" onclick="next()">Next Question</button>
+</div>
+
+<script src='main.js'></script>
+</body>
+</html>
