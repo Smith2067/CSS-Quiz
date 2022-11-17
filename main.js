@@ -216,37 +216,9 @@ function ans4(){
 }
 
 function help(){
-if(counter == 1){
-    alert("Go to https://www.w3schools.com/html/html_styles.asp for help.")
+alert("Go to https://www.w3schools.com/html/html_styles.asp for help.");
 }
-else if(counter == 2){
-    alert("Go to *link* for help.")
-}
-else if(counter == 3){
-    alert("Go to *link* for help.")
-}
-else if(counter == 4){
-    alert("Go to *link* for help.")
-}
-else if(counter == 5){
-    alert("Go to *link* for help.")
-}
-else if(counter == 6){
-    alert("Go to *link* for help.")
-}
-else if(counter == 7){
-    alert("Go to *link* for help.")
-}
-else if(counter == 8){
-    alert("Go to *link* for help.")
-}
-else if(counter == 9){
-    alert("Go to *link* for help.")
-}
-else if(counter == 10){
-    alert("Go to *link* for help.")
-}
-}
+
 
 function next(){
     if(counter == 1){
